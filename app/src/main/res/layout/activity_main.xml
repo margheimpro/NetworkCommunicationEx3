@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingHorizontal="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="200"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:text="@string/info"/>
+
+
+    <ImageView
+        android:id="@+id/random_dog"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_weight="100"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/dog"
+        android:contentDescription="@string/description" />
+
+</LinearLayout>

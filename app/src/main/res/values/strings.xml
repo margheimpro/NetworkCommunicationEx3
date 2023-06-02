@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dogs</string>
+    <string name="info">Click the image below to see other cute photo</string>
+    <string name="description">dog photos</string>
+</resources>
